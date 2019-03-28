@@ -144,6 +144,7 @@ function shoujinengliang(type) {
     sleep(300);
     return getEnergy;
 };
+
 //点击能量球
 function clickEnergyBall(){
     sleep(3000);
