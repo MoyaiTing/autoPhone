@@ -22,8 +22,6 @@ while(1==1){
     desc("锁屏").findOne().click();
     exectuion.getEngine().forceStop();
   }
-  print("11");
-  
   sleep(1000);
   click(1510,850);
   sleep(1000);
