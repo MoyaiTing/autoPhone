@@ -14,7 +14,7 @@ try {
     initAuto();
 }
 catch(err) {
-    log(err);
+    err(err);
     log("执行报错，再来一次");
     back();
     sleep(300);
